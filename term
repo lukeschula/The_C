@@ -1,0 +1,36 @@
+*\\Some invisible terminators:
+Null terminator (\n)- followed by aline 
+\t- for tab
+\b- for backspace
+\"- for double quotes
+\\- for the blackslash itself
+
+/* Data types
+char- a character, 1 byte
+short- short integer
+long- long integer, 32 bits
+double- double-precision floating point 
+int- integer, 16 bits
+
+/* Substitution variables
+%d- print as decimal integer
+%ld- print a long integer
+%6d- print a decimal integer, at least 6 characters wide 
+%f- print as a floating point
+%.2f- print as a floating point, 2 characters after the decimal point 
+%6.2f- print as a floatinfg point, at least 6 wide and 2 after decimal point 
+%o- octal
+%x- hexadecimal
+%c- for character
+%s- string
+%%- % itself
+
+/* Functions
+getchar- reads the next input character from a text stream and returns that as its value
+putchar- prints a character each time it is called 
+
+/*Interesting signs in c
+!=-  does not equal to
+++- incremented by 1
+(--)- decremented by 1
+==- is eqaul to
